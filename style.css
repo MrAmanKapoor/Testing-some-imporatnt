@@ -389,7 +389,7 @@ span {
 @media(max-width:700px) {
 
     .header
-    {  
+    {   background-color: none;
         background-image: linear-gradient(rgba(37, 38, 41, 0.7),rgba(29, 29, 31, 0.9)),url(images/header_img.png);
         background-position: center;
     background-size: cover;
