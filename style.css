@@ -438,7 +438,8 @@ span {
         transform: scale(1.001);
 
     }
-.test h1{font-size: medium;}
+.test h1{font-size: large;}
+    .test a{width: auto;padding: 0.3rem;}
     .sample-certificate {
 
         flex-direction: column;
@@ -555,4 +556,16 @@ footer {
 footer span {
     font-size: 2rem;
     text-shadow: 2px 2px 5px black;
+}
+
+@media(max-width:420px) {
+   
+    .textbox
+    {
+        left: 2rem;
+    }
+    .textbox h1 span,.textbox p
+    {
+        font-size: larger;
+    }
 }
