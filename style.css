@@ -438,16 +438,17 @@ span {
         transform: scale(1.001);
 
     }
-
+.test h1{font-size: medium;}
     .sample-certificate {
 
         flex-direction: column;
     }
 
     .sample-certificate img {
-        width: 25rem;
-        height: 12rem;
+        width: 70vw;
+        height: 15vh;
     }
+    
     .sample-certificate h2
     {font-size: 40px;}
     .circle {
