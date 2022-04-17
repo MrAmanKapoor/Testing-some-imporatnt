@@ -329,7 +329,23 @@ margin-top: 2%;
 {
   flex-basis: 75%;
 }
+.contact-us
+{
+  display: block;
+}
 }
 
 #message
 {display: none;}
+
+@media(max-width:600px){
+.card
+{
+  flex-direction: column;
+}
+.Contact-box
+{
+min-width: 80vw;
+margin-bottom: 2%;
+}
+}
