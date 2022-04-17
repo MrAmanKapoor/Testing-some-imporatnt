@@ -6,6 +6,11 @@ body
   -webkit-user-select: none;
   user-select: none;
 }
+.nav{
+  position: fixed;
+  min-width: 100vw;
+  background-color: black;
+}
 #messagebox
 {
   position: relative;
