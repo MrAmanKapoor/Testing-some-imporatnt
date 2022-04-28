@@ -1,5 +1,6 @@
 
 <h1 align="center"> CodesQuiz <br>www.codesquiz.in</h1>
+Hosted Link:  https://mramankapoor.github.io/CodesQuiz/New%20Version%20practice.html
 
 
 
@@ -11,12 +12,12 @@ Website Performance Report
 - View Full Report: <a href="https://mramankapoor.github.io/CodesQuiz/GTmetrix-report-codesquiz.in-20220423T232453-Cah4JWiE.pdf"> View</a>
 __________________
 <div align="center">
-  <img src="https://mramankapoor.github.io/CodesQuiz/Performance%201.png" width="700" height="350"/>
+  <img src="https://mramankapoor.github.io/CodesQuiz/Performance%201.png" width="600" height="300"/>
 </div>
 
 ----
 
 
 <div align="center">
-  <img src="https://mramankapoor.github.io/CodesQuiz/Performance%202.png" width="700" height="350"/>
+  <img src="https://mramankapoor.github.io/CodesQuiz/Performance%202.png" width="600" height="300"/>
 </div>
