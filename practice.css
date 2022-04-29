@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,7 +15,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(rgb(13, 13, 70) 2%, rgb(71, 233, 71), rgb(13, 13, 70));
+    background: linear-gradient(rgb(0, 0, 0) 2%, rgb(183, 189, 183), rgb(0, 0, 0));
     border-radius: 10px;
 }
 
@@ -237,7 +237,7 @@ img {
 @media(orientation:portrait) {
     .header {
        
-        min-height: 50vh;
+        min-height: 30vh;
         width: auto;
         background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.402)), url(images/coursebg.jpg);
         background-position: center;
@@ -418,7 +418,7 @@ footer span {
     }
     .row
     {
-        grid-template-columns: 50%;
+        grid-template-columns: 45% 45%;
     }
 }
 
