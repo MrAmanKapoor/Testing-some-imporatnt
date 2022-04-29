@@ -272,7 +272,7 @@ img {
 @media(max-width:700px) {
 
     .header {
-        min-height: 40vh;
+        min-height: 30vh;
         width: auto;
         background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.402)), url(images/coursebg.jpg);
         background-position: center;
