@@ -397,7 +397,7 @@ footer span {
 @media(max-width:570px) {
 
     nav {
-        background-color: rgb(46, 44, 44);
+        background-color:black;
         height: 8vh;
     }
 
