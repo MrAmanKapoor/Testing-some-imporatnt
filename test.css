@@ -43,7 +43,7 @@ body
     flex-direction: row;
     margin: 2%;
     border-radius: 15px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     padding: 20px 12px;
     box-sizing: border-box;
     text-align:justify;
@@ -79,7 +79,6 @@ body
 .box
 {
   position: relative;
-  flex-basis: 25%;
   background: rgba(255,255,255,0.9);
   box-sizing: border-box;
   width: 35%;
@@ -119,26 +118,29 @@ body
   padding: 10px;
   background: black;
   color: white;
-  min-width: 30px;
+  min-width: 10px;
   text-align: center;
   border-bottom-left-radius: 15px;
    
 }
-.input-container>label
+.input-container label
 {
   background-color: white;
   color: black;
-  font-size: 15px;
+  font-size: 10px;
   text-align: left;
+  margin: auto;
 }
 
 /* Style the input fields */
 .input-field{
   width: 80%;
-  padding: 10px;
+  padding: 2px;
   outline: none;
   border-top-right-radius: 15px;
-  border: 2px solid black
+  border: 2px solid black;
+ 
+
 }
 .check-box{
   width: 100%;
@@ -343,7 +345,47 @@ margin-top: 2%;
 @media(max-width:700px){
 .card
 {
+  margin-top: -5%;
+}
+.box
+{
+  width: 80vw;
+}
+.userdetail
+{
+  margin-top: -2%;
+}
+.test-index
+{
+  font-size: 2vw;
+  height: 12vh;
+  margin-bottom: 2%;
+}
+.index
+{
+  padding: -0%;
+  height: 12vh;
+  flex-basis: 50%;
+}
+.index p{font-size: 2vw;}
+.questions
+{
   flex-direction: column;
+}
+.question h5{font-size: 4vw;}
+.answers
+{
+  min-height: 25vh;
+}
+.answers h6
+{
+  font-size: 4vw;
+  font-weight: 300;
+}
+#successfully
+{
+  height: 50%;
+  font-size: smaller;
 }
 .contact-card
 {
@@ -358,48 +400,4 @@ margin-top: 2%;
 min-width: 80vw;
 margin-bottom: 2%;
 }
-}
-
-
-/*-------For Mobile------*/
-
-
-@media (max-width:600px)
-
-{
-  .content
-  {
-  
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-  }
- 
-  .box
-  {
-    width: 75vw;
-  }
-  .userdetail .input-container .input-field
-  {
-
-    font-size: 10px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-  }
-}
-
-
-@media only screen and (orientation:portrait) and (max-width:600px) {
-  body {
-    height: 100vw;
-    transform: rotate(90deg);
-
-  }
-  .test-index .index h4{font-size: 3vw;}
-  .test-index .index p{font-size: 2vw;}
-  .question h5 { font-size: 3vw;}
-  .question button{font-size: 1vw; width: 50vw;}
-  .option h6 {font-size: 10px;}
 }
