@@ -371,16 +371,40 @@ margin-top: 2%;
 .questions
 {
   flex-direction: column;
+  background: linear-gradient(to right bottom,
+  rgba(255,255,255,0.9),
+  rgba(255,255,255,0.5)
+);
+  padding: 2%;
 }
+.question
+{background: transparent;}
 .question h5{font-size: 4vw;}
 .answers
 {
-  min-height: 25vh;
+  height: 10vh;
+  
+  min-height: 10vh;
+  grid-template-columns: auto ;
+  padding: 0;
+  gap: 5px;
+  margin-top: 2%;
 }
 .answers h6
 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 300;
+  
+}
+.option
+{
+  padding: 1vh;
+  margin: 0.2%;
+  border-radius: 0;
+  border: none;
+  text-align: justify;
+  background: transparent;
+  border-bottom: 2px dotted grey;
 }
 #successfully
 {
