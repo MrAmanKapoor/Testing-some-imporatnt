@@ -100,10 +100,20 @@ function verify() {
 
         }
         var i = 0;
+        if(i == 0)
+        {
+           
+            document.getElementById('question-btn').innerText = "Start Test";
+        }
+        if(i==15)
+        {
+            document.getElementById('reg-btn').style.disable = "False";
+        }
         function myFunction() {
-
+           
             if (i <= 14) {
 
+                document.getElementById('question-btn').innerText = "Next Question";
                 let x = Math.floor((Math.random() * 39) + 1);
                 i++;
                 document.getElementById("ques-no").innerHTML = i + "/15";
