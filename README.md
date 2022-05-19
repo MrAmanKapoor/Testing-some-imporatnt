@@ -1,6 +1,5 @@
 
 <h1 align="center"> CodesQuiz <br>www.codesquiz.in</h1>
-Hosted Link:  https://mramankapoor.github.io/CodesQuiz/New%20Version%20practice.html
 
 
 
