@@ -17,20 +17,21 @@ function Sum_of_numbers_within_an_array() {
    
 }
 
-//................Remove_duplicate_item_from_an_array.............//
-function Remove_duplicate_item_from_an_array()
-{
-    var n = [];
-for (let i = 0; i < 5; i++) {
-
-    n[i] = prompt("Enter Array Element " + (n));
-
-}
-let uniqueChars = [...new Set(n)];
-
-console.log(uniqueChars);
-document.write("Your Array is " + n);
-document.write("<br/> <br/>");
+ction factorial(n) {
+        if (n==0) {
+            return 1;ction factorial(n) {
+        if (n==0) {
+            return 1;ction factorial(n) {
+        if (n==0) {
+            return 1;ction factorial(n) {
+        if (n==0) {
+            return 1;ction factorial(n) {
+        if (n==0) {
+            return 1;ction factorial(n) {
+        if (n==0) {
+            return 1;ction factorial(n) {
+        if (n==0) {
+            return 1;
 document.write("New Array after removing duplicate item:- " + uniqueChars);
 }
 
