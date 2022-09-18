@@ -12,40 +12,11 @@ function Sum_of_numbers_within_an_array() {
    
 }
 
-ction factorial(n) {
-        if (n==0) {
-            return 1;ction factorial(n) {
-        if (n==0) {
-            return 1;ction factorial(n) {
-        if (n==0) {
-            return 1;ction factorial(n) {
-        if (n==0) {
-            return 1;ction factorial(n) {
-        if (n==0) {
-            return 1;ction factorial(n) {
-        if (n==0) {
-            return 1;ction factorial(n) {
-        if (n==0) {
-            return 1;
-document.write("New Array after removing duplicate item:- " + uniqueChars);
-}
 
 
 //.............factorial_of_a_Number..............//
 
-function factorial_of_a_Number(){
-    var n= window. prompt("Find Factorial of a number, Enter Number");
-    function factorial(n) {
-        if (n==0) {
-            return 1;
-        }
-        else
-        {
-            return n*factorial(n-1);
-        }
-    }
-    var result = factorial(n);
-    alert("Factorial of "+n + " is " +result);
+
 }
 
 //...........Largest_No_of_Array.........//
