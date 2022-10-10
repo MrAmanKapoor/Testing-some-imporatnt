@@ -417,32 +417,6 @@ alert("Range btw " + start_num + " to "+ end_num + " is " + result);
 
 }
 
-///............Find the longest word within a string....////
-
-
-function longest_word()
-{
-    var  str= prompt('Enter a Sentence..');
-
-    function find_longest_word(str)
-{
-  var array1 = str.match(/\w[a-z]{0,}/gi);
-  var result = array1[0];
-
-  for(var x = 1 ; x < array1.length ; x++)
-  {
-    if(result.length < array1[x].length)
-    {
-    result = array1[x];
-    } 
-  }
-  return result;
-}
-alert
-(   "Enter a Sentence by you :---->" +  str +
-    "\nLongest word is :---->" + find_longest_word(str)
-    );
-}
 
 */
 
