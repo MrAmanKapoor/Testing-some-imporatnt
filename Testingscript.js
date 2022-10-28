@@ -178,11 +178,4 @@ function longest_word()
     result = array1[x];
     } 
   }
-  return result;
-}
-alert
-(   "Enter a Sentence by you :---->" +  str +
-    "\nLongest word is :---->" + find_longest_word(str)
-    );
-}
 
