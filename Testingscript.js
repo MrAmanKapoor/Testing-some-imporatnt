@@ -19,21 +19,6 @@ function Sum_of_numbers_within_an_array() {
 
 }
 
-//...........Largest_No_of_Array.........//
-function Largest_No_of_Array()
-{
-    var n = [];
-        for (let i = 0; i < 5; i++) {
-
-            n[i] = prompt("Enter Array Element " + (n));
-
-        }
-        document.write("Your Array is " + n);
-        document.write("<br/>");
-        var result = Math.max(...n);
-        document.write("Largest Number is:" + result);
-  
-}
 //.......Fibonacci_Number........//
 
 function Fibonacci_Number()
