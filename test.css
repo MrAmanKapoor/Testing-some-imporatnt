@@ -16,60 +16,6 @@ body
   background-color: black;
 }
 
-
-/* Set a style for the submit button */
-.btn {
-  
-  border: 2px solid black;
-  color: black;
-  font-size: 1rem;
-  padding: 10px 10px;
-  cursor: pointer;
-  width: 40%;
-  opacity: 0.8;
-  transition: 1s;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 15px;
-  text-decoration: none;
-   text-align: center;
-  
-}
-.btn:hover {
-  opacity: 1;
-  color: green;
-  box-shadow: 2px 2px 5px black;
-}
-#test-box
-{
-  display: none;
-}
-
-
-.test-index
-{
-  width: 95%;
-  height: 20vh;
-  display: flex;
-  margin: auto;
-  border-radius: 20px;
-}
-.userdetail
-{
-margin-top: 2%;
- display: flex;
-
-  
-}
-#verify-btn
-{
-  display: none;
-}
-#table-name,#table-email,#table-mobile,.hide-input
-{
-  color:black;
-  flex-basis: 30%;
-  display: none;
-}
 .index 
 {
   display: flex;
