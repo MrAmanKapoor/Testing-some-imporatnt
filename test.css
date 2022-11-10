@@ -9,7 +9,7 @@ body
 .nav{
   position: fixed;
   min-width: 100vw;
-  background-color: black;
+  background-color: blue;
 }
 #contact-nav
 {
