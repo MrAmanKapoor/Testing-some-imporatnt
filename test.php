@@ -26,7 +26,7 @@ $password=$_POST['password'];$query="SELECT * FROM registeration WHERE email='$e
 		(function () {
 			function refreshCSS() {
 				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
+				var head = document.getElementsByTagName("head")[4];
 				for (var i = 0; i < sheets.length; ++i) {
 					var elem = sheets[i];
 					var parent = elem.parentElement || head;
