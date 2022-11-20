@@ -19,19 +19,23 @@ Email:<br>
 <?phpif(isset($_POST['submit'])){$email=$_POST['email'];
 $password=$_POST['password'];$query="SELECT * FROM registeration WHERE email='$email' && password='$password'";$result=mysqli_query($conn,$query);$temp=mysqli_num_rows($result);if($temp){	$_SESSION['email']=$email;	header('location:home.php');	}else{	echo "Incorrect ID or Password, Please try again.";}
 }
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[4];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+<!-- PHP Avtar Code-->
+function createAvatarImage($string)
+{
+    $imageFilePath = "images/".$string . ".png";
+
+    //base avatar image that we use to center our text string on top of it.
+    $avatar = imagecreatetruecolor(60,60);
+    $bg_color = imagecolorallocate($avatar, 211, 211, 211);
+    imagefill($avatar,0,0,$bg_color);
+    $avatar_text_color = imagecolorallocate($avatar, 0, 0, 0);
+	// Load the gd font and write 
+    $font = imageloadfont('gd-files/gd-font.gdf');
+    imagestring($avatar, $font, 10, 10, $string, $avatar_text_color);
+    imagepng($avatar, $imageFilePath);
+    imagedestroy($avatar);
+ 
+    return $imageFilePath;
+}
 
 </html>
